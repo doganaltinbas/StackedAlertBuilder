@@ -27,6 +27,8 @@
 		DC45D2D2231C5BFE0041511B /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC45D2C6231C5BFE0041511B /* CustomAlertView.swift */; };
 		DC45D2D3231C5BFE0041511B /* AlertLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC45D2C7231C5BFE0041511B /* AlertLabel.swift */; };
 		DC45D2D4231C5BFE0041511B /* AlertImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC45D2C8231C5BFE0041511B /* AlertImage.swift */; };
+		DC45D2D6231C5CCE0041511B /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC45D2D5231C5CCE0041511B /* UIColor+.swift */; };
+		DC45D2D8231C5CEF0041511B /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC45D2D7231C5CEF0041511B /* UIView+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		DC45D2C6231C5BFE0041511B /* CustomAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
 		DC45D2C7231C5BFE0041511B /* AlertLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertLabel.swift; sourceTree = "<group>"; };
 		DC45D2C8231C5BFE0041511B /* AlertImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertImage.swift; sourceTree = "<group>"; };
+		DC45D2D5231C5CCE0041511B /* UIColor+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		DC45D2D7231C5CEF0041511B /* UIView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,8 @@
 		DC384C5F231C14380043768D /* StackedAlertBuilder */ = {
 			isa = PBXGroup;
 			children = (
+				DC45D2D7231C5CEF0041511B /* UIView+.swift */,
+				DC45D2D5231C5CCE0041511B /* UIColor+.swift */,
 				DC384C60231C14380043768D /* AppDelegate.swift */,
 				DC384C62231C14380043768D /* ViewController.swift */,
 				DC45D2BA231C5BED0041511B /* AlertBuilder.swift */,
@@ -308,10 +314,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC45D2D8231C5CEF0041511B /* UIView+.swift in Sources */,
 				DC45D2C9231C5BFE0041511B /* AlertButton.swift in Sources */,
 				DC45D2CD231C5BFE0041511B /* TripleAlertButton.swift in Sources */,
 				DC45D2D4231C5BFE0041511B /* AlertImage.swift in Sources */,
 				DC45D2BB231C5BED0041511B /* AlertBuilder.swift in Sources */,
+				DC45D2D6231C5CCE0041511B /* UIColor+.swift in Sources */,
 				DC45D2D0231C5BFE0041511B /* DoubleAlertButton.swift in Sources */,
 				DC45D2CF231C5BFE0041511B /* CustomAlertViewDelegate.swift in Sources */,
 				DC384C63231C14380043768D /* ViewController.swift in Sources */,
