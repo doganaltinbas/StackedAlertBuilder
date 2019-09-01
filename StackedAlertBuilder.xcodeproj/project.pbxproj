@@ -128,11 +128,10 @@
 		DC384C5F231C14380043768D /* StackedAlertBuilder */ = {
 			isa = PBXGroup;
 			children = (
-				DC45D2D7231C5CEF0041511B /* UIView+.swift */,
-				DC45D2D5231C5CCE0041511B /* UIColor+.swift */,
+				DC45D2D9231C626B0041511B /* Helpers */,
+				DC45D2DA231C62730041511B /* Extensions */,
 				DC384C60231C14380043768D /* AppDelegate.swift */,
 				DC384C62231C14380043768D /* ViewController.swift */,
-				DC45D2BA231C5BED0041511B /* AlertBuilder.swift */,
 				DC384C64231C14380043768D /* Main.storyboard */,
 				DC384C67231C143A0043768D /* Assets.xcassets */,
 				DC384C69231C143A0043768D /* LaunchScreen.storyboard */,
@@ -176,6 +175,23 @@
 				DC45D2C8231C5BFE0041511B /* AlertImage.swift */,
 			);
 			path = "Custom Alert";
+			sourceTree = "<group>";
+		};
+		DC45D2D9231C626B0041511B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DC45D2BA231C5BED0041511B /* AlertBuilder.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DC45D2DA231C62730041511B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DC45D2D7231C5CEF0041511B /* UIView+.swift */,
+				DC45D2D5231C5CCE0041511B /* UIColor+.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
