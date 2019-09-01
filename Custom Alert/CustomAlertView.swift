@@ -2,8 +2,8 @@
 //  CustomAlertView.swift
 //  CustomAlertView
 //
-//  Created by Daniel Luque Quintana on 16kar /3/17.
-//  Copyright © 2017 dluque. All rights reserved.
+//  Created by Dogan Altinbas on 14.08.2019.
+//  Copyright © 2019 Dogan Altinbas. All rights reserved.
 //
 
 import UIKit
