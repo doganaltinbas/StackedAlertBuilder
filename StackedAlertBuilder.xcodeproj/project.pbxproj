@@ -161,18 +161,18 @@
 		DC45D2BC231C5BFE0041511B /* Custom Alert */ = {
 			isa = PBXGroup;
 			children = (
+				DC45D2C8231C5BFE0041511B /* AlertImage.swift */,
+				DC45D2BF231C5BFE0041511B /* AlertImage.xib */,
+				DC45D2C5231C5BFE0041511B /* AlertLabel.xib */,
+				DC45D2C7231C5BFE0041511B /* AlertLabel.swift */,
 				DC45D2BD231C5BFE0041511B /* AlertButton.swift */,
 				DC45D2BE231C5BFE0041511B /* AlertButton.xib */,
-				DC45D2BF231C5BFE0041511B /* AlertImage.xib */,
+				DC45D2C2231C5BFE0041511B /* DoubleAlertButton.xib */,
+				DC45D2C4231C5BFE0041511B /* DoubleAlertButton.swift */,
 				DC45D2C0231C5BFE0041511B /* TripleAlertButton.xib */,
 				DC45D2C1231C5BFE0041511B /* TripleAlertButton.swift */,
-				DC45D2C2231C5BFE0041511B /* DoubleAlertButton.xib */,
 				DC45D2C3231C5BFE0041511B /* CustomAlertViewDelegate.swift */,
-				DC45D2C4231C5BFE0041511B /* DoubleAlertButton.swift */,
-				DC45D2C5231C5BFE0041511B /* AlertLabel.xib */,
 				DC45D2C6231C5BFE0041511B /* CustomAlertView.swift */,
-				DC45D2C7231C5BFE0041511B /* AlertLabel.swift */,
-				DC45D2C8231C5BFE0041511B /* AlertImage.swift */,
 			);
 			path = "Custom Alert";
 			sourceTree = "<group>";

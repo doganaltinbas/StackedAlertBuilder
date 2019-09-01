@@ -52,8 +52,8 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tCa-mf-bvn">
                                         <rect key="frame" x="0.0" y="298.5" width="382" height="149.5"/>
                                         <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                        <state key="normal" title="Label and 3 Buttons">
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                        <state key="normal" title="Label and 3 Buttons with Image">
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
                                         <connections>
@@ -82,7 +82,7 @@
         <!--Custom Alert View-->
         <scene sceneID="3UE-JS-sWD">
             <objects>
-                <viewController storyboardIdentifier="CustomAlertID" definesPresentationContext="YES" providesPresentationContextTransitionStyle="YES" modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="nQn-MA-iXI" customClass="CustomAlertView" customModule="Typest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CustomAlertID" definesPresentationContext="YES" providesPresentationContextTransitionStyle="YES" modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="nQn-MA-iXI" customClass="CustomAlertView" customModule="StackedAlertBuilder" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="RpZ-3i-NWd"/>
                         <viewControllerLayoutGuide type="bottom" id="Djc-yk-fQ5"/>
