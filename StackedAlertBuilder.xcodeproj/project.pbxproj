@@ -14,6 +14,19 @@
 		DC384C6B231C143A0043768D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC384C69231C143A0043768D /* LaunchScreen.storyboard */; };
 		DC384C76231C143A0043768D /* StackedAlertBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC384C75231C143A0043768D /* StackedAlertBuilderTests.swift */; };
 		DC384C81231C143A0043768D /* StackedAlertBuilderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC384C80231C143A0043768D /* StackedAlertBuilderUITests.swift */; };
+		DC45D2BB231C5BED0041511B /* AlertBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC45D2BA231C5BED0041511B /* AlertBuilder.swift */; };
+		DC45D2C9231C5BFE0041511B /* AlertButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC45D2BD231C5BFE0041511B /* AlertButton.swift */; };
+		DC45D2CA231C5BFE0041511B /* AlertButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC45D2BE231C5BFE0041511B /* AlertButton.xib */; };
+		DC45D2CB231C5BFE0041511B /* AlertImage.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC45D2BF231C5BFE0041511B /* AlertImage.xib */; };
+		DC45D2CC231C5BFE0041511B /* TripleAlertButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC45D2C0231C5BFE0041511B /* TripleAlertButton.xib */; };
+		DC45D2CD231C5BFE0041511B /* TripleAlertButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC45D2C1231C5BFE0041511B /* TripleAlertButton.swift */; };
+		DC45D2CE231C5BFE0041511B /* DoubleAlertButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC45D2C2231C5BFE0041511B /* DoubleAlertButton.xib */; };
+		DC45D2CF231C5BFE0041511B /* CustomAlertViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC45D2C3231C5BFE0041511B /* CustomAlertViewDelegate.swift */; };
+		DC45D2D0231C5BFE0041511B /* DoubleAlertButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC45D2C4231C5BFE0041511B /* DoubleAlertButton.swift */; };
+		DC45D2D1231C5BFE0041511B /* AlertLabel.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC45D2C5231C5BFE0041511B /* AlertLabel.xib */; };
+		DC45D2D2231C5BFE0041511B /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC45D2C6231C5BFE0041511B /* CustomAlertView.swift */; };
+		DC45D2D3231C5BFE0041511B /* AlertLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC45D2C7231C5BFE0041511B /* AlertLabel.swift */; };
+		DC45D2D4231C5BFE0041511B /* AlertImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC45D2C8231C5BFE0041511B /* AlertImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +60,19 @@
 		DC384C7C231C143A0043768D /* StackedAlertBuilderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackedAlertBuilderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC384C80231C143A0043768D /* StackedAlertBuilderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackedAlertBuilderUITests.swift; sourceTree = "<group>"; };
 		DC384C82231C143A0043768D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC45D2BA231C5BED0041511B /* AlertBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertBuilder.swift; sourceTree = "<group>"; };
+		DC45D2BD231C5BFE0041511B /* AlertButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertButton.swift; sourceTree = "<group>"; };
+		DC45D2BE231C5BFE0041511B /* AlertButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertButton.xib; sourceTree = "<group>"; };
+		DC45D2BF231C5BFE0041511B /* AlertImage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertImage.xib; sourceTree = "<group>"; };
+		DC45D2C0231C5BFE0041511B /* TripleAlertButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TripleAlertButton.xib; sourceTree = "<group>"; };
+		DC45D2C1231C5BFE0041511B /* TripleAlertButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripleAlertButton.swift; sourceTree = "<group>"; };
+		DC45D2C2231C5BFE0041511B /* DoubleAlertButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoubleAlertButton.xib; sourceTree = "<group>"; };
+		DC45D2C3231C5BFE0041511B /* CustomAlertViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertViewDelegate.swift; sourceTree = "<group>"; };
+		DC45D2C4231C5BFE0041511B /* DoubleAlertButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleAlertButton.swift; sourceTree = "<group>"; };
+		DC45D2C5231C5BFE0041511B /* AlertLabel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertLabel.xib; sourceTree = "<group>"; };
+		DC45D2C6231C5BFE0041511B /* CustomAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		DC45D2C7231C5BFE0041511B /* AlertLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertLabel.swift; sourceTree = "<group>"; };
+		DC45D2C8231C5BFE0041511B /* AlertImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				DC384C5F231C14380043768D /* StackedAlertBuilder */,
+				DC45D2BC231C5BFE0041511B /* Custom Alert */,
 				DC384C74231C143A0043768D /* StackedAlertBuilderTests */,
 				DC384C7F231C143A0043768D /* StackedAlertBuilderUITests */,
 				DC384C5E231C14380043768D /* Products */,
@@ -99,6 +126,7 @@
 			children = (
 				DC384C60231C14380043768D /* AppDelegate.swift */,
 				DC384C62231C14380043768D /* ViewController.swift */,
+				DC45D2BA231C5BED0041511B /* AlertBuilder.swift */,
 				DC384C64231C14380043768D /* Main.storyboard */,
 				DC384C67231C143A0043768D /* Assets.xcassets */,
 				DC384C69231C143A0043768D /* LaunchScreen.storyboard */,
@@ -123,6 +151,25 @@
 				DC384C82231C143A0043768D /* Info.plist */,
 			);
 			path = StackedAlertBuilderUITests;
+			sourceTree = "<group>";
+		};
+		DC45D2BC231C5BFE0041511B /* Custom Alert */ = {
+			isa = PBXGroup;
+			children = (
+				DC45D2BD231C5BFE0041511B /* AlertButton.swift */,
+				DC45D2BE231C5BFE0041511B /* AlertButton.xib */,
+				DC45D2BF231C5BFE0041511B /* AlertImage.xib */,
+				DC45D2C0231C5BFE0041511B /* TripleAlertButton.xib */,
+				DC45D2C1231C5BFE0041511B /* TripleAlertButton.swift */,
+				DC45D2C2231C5BFE0041511B /* DoubleAlertButton.xib */,
+				DC45D2C3231C5BFE0041511B /* CustomAlertViewDelegate.swift */,
+				DC45D2C4231C5BFE0041511B /* DoubleAlertButton.swift */,
+				DC45D2C5231C5BFE0041511B /* AlertLabel.xib */,
+				DC45D2C6231C5BFE0041511B /* CustomAlertView.swift */,
+				DC45D2C7231C5BFE0041511B /* AlertLabel.swift */,
+				DC45D2C8231C5BFE0041511B /* AlertImage.swift */,
+			);
+			path = "Custom Alert";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +276,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC45D2CA231C5BFE0041511B /* AlertButton.xib in Resources */,
+				DC45D2CB231C5BFE0041511B /* AlertImage.xib in Resources */,
+				DC45D2CC231C5BFE0041511B /* TripleAlertButton.xib in Resources */,
 				DC384C6B231C143A0043768D /* LaunchScreen.storyboard in Resources */,
 				DC384C68231C143A0043768D /* Assets.xcassets in Resources */,
 				DC384C66231C14380043768D /* Main.storyboard in Resources */,
+				DC45D2CE231C5BFE0041511B /* DoubleAlertButton.xib in Resources */,
+				DC45D2D1231C5BFE0041511B /* AlertLabel.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +308,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC45D2C9231C5BFE0041511B /* AlertButton.swift in Sources */,
+				DC45D2CD231C5BFE0041511B /* TripleAlertButton.swift in Sources */,
+				DC45D2D4231C5BFE0041511B /* AlertImage.swift in Sources */,
+				DC45D2BB231C5BED0041511B /* AlertBuilder.swift in Sources */,
+				DC45D2D0231C5BFE0041511B /* DoubleAlertButton.swift in Sources */,
+				DC45D2CF231C5BFE0041511B /* CustomAlertViewDelegate.swift in Sources */,
 				DC384C63231C14380043768D /* ViewController.swift in Sources */,
+				DC45D2D2231C5BFE0041511B /* CustomAlertView.swift in Sources */,
 				DC384C61231C14380043768D /* AppDelegate.swift in Sources */,
+				DC45D2D3231C5BFE0041511B /* AlertLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

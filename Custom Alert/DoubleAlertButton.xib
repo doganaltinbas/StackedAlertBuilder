@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Quicksand-Medium.ttf">
+            <string>Quicksand-Medium</string>
+        </array>
+        <array key="Quicksand-Regular.ttf">
+            <string>Quicksand-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DoubleAlertButton" customModule="Typest" customModuleProvider="target">
+            <connections>
+                <outlet property="firstAlertButton" destination="enn-JK-l10" id="Dm8-5l-Mcb"/>
+                <outlet property="secondAlertButton" destination="AIJ-EB-axb" id="0Lc-jc-Nx4"/>
+                <outlet property="view" destination="iN0-l3-epB" id="2SG-MO-twF"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="68"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dba-i4-dyA">
+                    <rect key="frame" x="0.0" y="0.0" width="280" height="68"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5HJ-eO-rz6" userLabel="topLine">
+                            <rect key="frame" x="0.0" y="0.0" width="280" height="1"/>
+                            <color key="backgroundColor" red="0.070588235289999995" green="0.16078431369999999" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="Iv7-fk-9gm"/>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1" id="bZB-e8-5vh"/>
+                            </constraints>
+                        </view>
+                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Hv-Tk-gKX">
+                            <rect key="frame" x="0.0" y="2" width="280" height="66"/>
+                            <subviews>
+                                <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="enn-JK-l10">
+                                    <rect key="frame" x="0.0" y="0.0" width="139.5" height="66"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" name="Quicksand-Medium" family="Quicksand Medium" pointSize="17"/>
+                                    <state key="normal" title="Cancel">
+                                        <color key="titleColor" red="0.070588235289999995" green="0.16078431369999999" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="firstBtnTapped:" destination="-1" eventType="touchUpInside" id="c3S-vD-GfO"/>
+                                    </connections>
+                                </button>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sFy-nj-rKD">
+                                    <rect key="frame" x="139.5" y="0.0" width="1" height="66"/>
+                                    <color key="backgroundColor" red="0.070588235289999995" green="0.16078431369999999" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="1" id="h1E-IH-tSP"/>
+                                    </constraints>
+                                </view>
+                                <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AIJ-EB-axb">
+                                    <rect key="frame" x="140.5" y="0.0" width="139.5" height="66"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" name="Quicksand-Regular" family="Quicksand" pointSize="17"/>
+                                    <state key="normal" title="OK">
+                                        <color key="titleColor" red="0.070588235289999995" green="0.16078431369999999" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="secondBtnTapped:" destination="-1" eventType="touchUpInside" id="NvS-Bf-vc0"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="sFy-nj-rKD" firstAttribute="top" secondItem="5Hv-Tk-gKX" secondAttribute="top" id="0a9-JC-xmx"/>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="3aM-03-Xg8"/>
+                                <constraint firstItem="enn-JK-l10" firstAttribute="width" secondItem="AIJ-EB-axb" secondAttribute="width" id="Jnp-JX-rzT"/>
+                                <constraint firstItem="sFy-nj-rKD" firstAttribute="leading" secondItem="enn-JK-l10" secondAttribute="trailing" id="OE6-Xb-jVj"/>
+                                <constraint firstAttribute="bottom" secondItem="sFy-nj-rKD" secondAttribute="bottom" id="crk-G5-Rw7"/>
+                                <constraint firstItem="AIJ-EB-axb" firstAttribute="leading" secondItem="sFy-nj-rKD" secondAttribute="trailing" id="vUV-JC-HUA"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="5Hv-Tk-gKX" secondAttribute="trailing" id="CNG-7i-CGw"/>
+                        <constraint firstItem="5HJ-eO-rz6" firstAttribute="leading" secondItem="Dba-i4-dyA" secondAttribute="leading" id="DB4-m4-65I"/>
+                        <constraint firstItem="5HJ-eO-rz6" firstAttribute="top" secondItem="Dba-i4-dyA" secondAttribute="top" id="Egr-fV-IKC"/>
+                        <constraint firstItem="5Hv-Tk-gKX" firstAttribute="leading" secondItem="Dba-i4-dyA" secondAttribute="leading" id="HUB-i0-A3J"/>
+                        <constraint firstItem="5Hv-Tk-gKX" firstAttribute="top" secondItem="5HJ-eO-rz6" secondAttribute="bottom" constant="1" id="Uc1-nX-mft"/>
+                        <constraint firstAttribute="bottom" secondItem="5Hv-Tk-gKX" secondAttribute="bottom" id="YSh-o3-sSy"/>
+                        <constraint firstAttribute="trailing" secondItem="5HJ-eO-rz6" secondAttribute="trailing" id="ZUQ-XZ-K93"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Dba-i4-dyA" secondAttribute="trailing" id="Js9-IW-s5U"/>
+                <constraint firstItem="Dba-i4-dyA" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Lbl-mH-PqE"/>
+                <constraint firstItem="Dba-i4-dyA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="VP9-7n-SNu"/>
+                <constraint firstAttribute="bottom" secondItem="Dba-i4-dyA" secondAttribute="bottom" id="aA0-hW-dQM"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="153.62318840579712" y="486.83035714285711"/>
+        </view>
+    </objects>
+</document>

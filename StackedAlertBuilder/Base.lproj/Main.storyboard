@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,9 +13,9 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="StackedAlertBuilder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -19,6 +23,57 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--Custom Alert View-->
+        <scene sceneID="3UE-JS-sWD">
+            <objects>
+                <viewController storyboardIdentifier="CustomAlertID" definesPresentationContext="YES" providesPresentationContextTransitionStyle="YES" modalTransitionStyle="crossDissolve" modalPresentationStyle="overCurrentContext" id="nQn-MA-iXI" customClass="CustomAlertView" customModule="Typest" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RpZ-3i-NWd"/>
+                        <viewControllerLayoutGuide type="bottom" id="Djc-yk-fQ5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VNl-Kx-IrE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="260-QZ-0Ux">
+                                <rect key="frame" x="83" y="333.5" width="248" height="0.0"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ztt-OT-esQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="248" height="0.0"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="ztt-OT-esQ" secondAttribute="trailing" id="A5j-j2-dqg"/>
+                                    <constraint firstItem="ztt-OT-esQ" firstAttribute="leading" secondItem="260-QZ-0Ux" secondAttribute="leading" id="BIl-JM-l0Y"/>
+                                    <constraint firstAttribute="bottom" secondItem="ztt-OT-esQ" secondAttribute="bottom" id="E7a-g5-27N"/>
+                                    <constraint firstItem="ztt-OT-esQ" firstAttribute="top" secondItem="260-QZ-0Ux" secondAttribute="top" id="F1d-vt-fyP"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="self.layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="260-QZ-0Ux" firstAttribute="width" secondItem="acs-WE-fGf" secondAttribute="width" multiplier="0.6" id="YPD-FX-xJT"/>
+                            <constraint firstItem="260-QZ-0Ux" firstAttribute="centerY" secondItem="VNl-Kx-IrE" secondAttribute="centerY" id="ajQ-bB-UIk"/>
+                            <constraint firstItem="260-QZ-0Ux" firstAttribute="centerX" secondItem="VNl-Kx-IrE" secondAttribute="centerX" id="dcX-Lc-vzG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="acs-WE-fGf"/>
+                    </view>
+                    <connections>
+                        <outlet property="alertView" destination="VNl-Kx-IrE" id="D2w-di-XZd"/>
+                        <outlet property="stackView" destination="ztt-OT-esQ" id="ce9-WD-b1h"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JJ7-DH-uMU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1124" y="138.98050974512745"/>
         </scene>
     </scenes>
 </document>
