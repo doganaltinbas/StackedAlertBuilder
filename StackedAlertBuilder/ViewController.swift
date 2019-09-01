@@ -35,7 +35,6 @@ class ViewController: UIViewController {
         }
         customAlert.components = componentArray
         self.present(customAlert, animated: false, completion: nil)
-        self.navigationController?.popViewController(animated: true)
     }
     @IBAction func showLblAnd3Buttons(_ sender: Any) {
         
